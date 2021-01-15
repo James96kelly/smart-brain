@@ -18,8 +18,6 @@ class SignIn extends React.Component {
 	}
 
   onSubmitSignIn = () => {
-  	//https://floating-everglades-93385.herokuapp.com/
-  	//fetch('http://localhost:3000/signin', {
   	fetch('https://floating-everglades-93385.herokuapp.com/signin', {
   		method: 'post',
   		headers: {'Content-Type': 'application/json'},
